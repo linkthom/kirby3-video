@@ -1,6 +1,7 @@
 # Video Plugin
 
 A plugin for [Kirby 3 CMS](http://getkirby.com) to embed content from YouTube without compromising privacy.
+Forked from SCHNTI/kirby3-video (see github.com/schnti/kirby3-video):
 CSS Adjustment to make it working also in Edge browser.
 
 ## Commercial Usage
