@@ -10,13 +10,13 @@
         <div class="youtube-hint">
             <div class="youtube-hint-text">
                 <div>
-                    <h3><?= t('schnti.video.headline'); ?></h3>
-                    <p><?= t('schnti.video.text'); ?></p>
-                    <button class="youtube-hint-button"><?= t('schnti.video.buttonText'); ?></button>
+                    <h3><?= t('linkthom.video.headline'); ?></h3>
+                    <p><?= t('linkthom.video.text'); ?></p>
+                    <button class="youtube-hint-button"><?= t('linkthom.video.buttonText'); ?></button>
                     <div class="youtube-hint-link-container">
-                        <small><a href="https://www.youtube.com/watch?v=<?= $id; ?>" class="youtube-hint-link" target="_blank"><?= t('schnti.video.linkText'); ?></a></small>
+                        <small><a href="https://www.youtube.com/watch?v=<?= $id; ?>" class="youtube-hint-link" target="_blank"><?= t('linkthom.video.linkText'); ?></a></small>
                     </div>
-                    <div class="youtube-id"><?= t('schnti.video.id'); ?> <?= $id; ?></div>
+                    <div class="youtube-id"><?= t('linkthom.video.id'); ?> <?= $id; ?></div>
                 </div>
             </div>
         </div>
