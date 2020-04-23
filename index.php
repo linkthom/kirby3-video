@@ -4,21 +4,21 @@ use Kirby\Cms\File;
 use Kirby\Toolkit\F;
 use Kirby\Toolkit\Tpl;
 
-Kirby::plugin('schnti/video', [
+Kirby::plugin('linkthom/video', [
 	'translations' => [
 		'de' => [
-			'schnti.video.headline'   => 'Wir respektieren deinen Datenschutz!',
-			'schnti.video.text'       => 'Klicke zum Aktivieren des Videos auf den Link. Wir möchten darauf hinweisen, dass nach der Aktivierung deine Daten an YouTube übermittelt werden',
-			'schnti.video.buttonText' => 'Video aktivieren',
-			'schnti.video.linkText'   => 'oder auf YouTube anschauen',
-			'schnti.video.id'         => 'YouTube ID:',
+			'linkthom.video.headline'   => 'Wir respektieren deinen Datenschutz!',
+			'linkthom.video.text'       => 'Klicke zum Aktivieren des Videos auf den Link. Wir möchten darauf hinweisen, dass nach der Aktivierung deine Daten an YouTube übermittelt werden',
+			'linkthom.video.buttonText' => 'Video aktivieren',
+			'linkthom.video.linkText'   => 'oder auf YouTube anschauen',
+			'linkthom.video.id'         => 'YouTube ID:',
 		],
 		'en' => [
-			'schnti.video.headline'   => 'We respect your privacy!',
-			'schnti.video.text'       => 'Click the button to activate the video. Then a connection to YouTube is established.',
-			'schnti.video.buttonText' => 'Activate video',
-			'schnti.video.linkText'   => 'or watch on youtube',
-			'schnti.video.id'         => 'YouTube ID:',
+			'linkthom.video.headline'   => 'We respect your privacy!',
+			'linkthom.video.text'       => 'Click the button to activate the video. Then a connection to YouTube is established.',
+			'linkthom.video.buttonText' => 'Activate video',
+			'linkthom.video.linkText'   => 'or watch on youtube',
+			'linkthom.video.id'         => 'YouTube ID:',
 		]
 	],
 	'tags'         => [
