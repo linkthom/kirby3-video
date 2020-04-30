@@ -5,6 +5,7 @@ Array.from(classname).forEach(function (element) {
 
         const youtubeContainer = element.closest('.youtube-container');
         youtubeContainer.classList.remove('disabled');
+        youtubeContainer.style.display = 'block';
 
         const img = youtubeContainer.getElementsByTagName('img')[0];
         img.style.display = 'none';
